@@ -1,0 +1,66 @@
+
+
+.Infobox {
+  background: linear-gradient(to right, #121212, #1f1f1f);
+    background-image:url("https://cdn.vectorstock.com/i/1000x1000/82/33/red-white-blue-stars-on-a-background-vector-21658233.webp");
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid #333;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#1e1e1e;
+  text-align: center;
+}
+
+.Infobox h1 {
+  color:RED;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background-image:url("https://images.squarespace-cdn.com/content/v1/5fa847dcd5d9331ae7254730/1641407374446-6E9MU5FCXTEYURS2HP47/ICEBERG+MEDITATION-6.png");
+  background-size:contain;
+}
+
+.MuiCard-root {
+  background-color: #1e1e1e;
+  border: 1px solid #444;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease;
+  color:black;
+}
+
+.MuiCard-root:hover {
+  transform: scale(1.02);
+}
+
+.MuiCardMedia-root {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.MuiTypography-h5 {
+  color:blueviolet;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.MuiTypography-body2 {
+  color:#1e1e1e;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+b {
+  color:blue;
+  background-color: #8d99ae;
+}

@@ -1,0 +1,72 @@
+/* Searchbox.css */
+
+.searchbox {
+  background-image:url("https://cdn.vectorstock.com/i/1000x1000/82/33/red-white-blue-stars-on-a-background-vector-21658233.webp");
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid #444;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+  color: #fff;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.searchbox h2 {
+  color: blueviolet;
+  margin-bottom: 25px;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.searchbox form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#city {
+  background-color: #333;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.MuiOutlinedInput-root {
+  background-color: #333;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.MuiInputLabel-root {
+  color: #bbb !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: #666 !important;
+}
+
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #888 !important;
+}
+
+.MuiOutlinedInput-input {
+  color: #fff;
+}
+
+button.MuiButton-contained {
+  background-color: #212121;
+  border: 1px solid #555;
+  color: #ffd700;
+  transition: background-color 0.3s ease;
+}
+
+button.MuiButton-contained:hover {
+  background-color: #333;
+}
+
+p {
+  color: #ff5252;
+  font-weight: bold;
+  margin-top: 10px;
+}
